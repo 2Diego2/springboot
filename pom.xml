@@ -43,16 +43,25 @@
 
 	<build>
   <plugins>
-    <plugin>
+     <plugin>
       <groupId>org.apache.maven.plugins</groupId>
-      <artifactId>maven-surefire-plugin</artifactId>
-      <version>3.0.0-M5</version>
+      <artifactId>maven-jar-plugin</artifactId>
+      <version>3.2.0</version>
       <configuration>
-        <includes>
-          <include>**/*Test.java</include>
-        </includes>
+        <archive>
+          <manifestEntries>
+            <Start-Class>TkApplication</Start-Class>
+            <Manifest-Version>1.0</Manifest-Version>
+            <Main-Class>com.portfolio.tk.TkApplication</Main-Class>
+            <Created-By>Maven Jar Plugin 3.2.0</Created-By>
+            <Build-Jdk-Spec>13</Build-Jdk-Spec>
+            <Implementation-Title>tk</Implementation-Title>
+            <Implementation-Version>0.0.1-SNAPSHOT</Implementation-Version>
+          </manifestEntries>
+        </archive>
       </configuration>
     </plugin>
+     
   </plugins>
 </build>
 
