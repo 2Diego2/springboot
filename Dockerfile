@@ -1,7 +1,7 @@
 FROM amazoncorretto:11-alpine-jdk
 
-MAINTAINER diegocata
+MAINTAINER diego
 
-copy target/tk-0.0.1-SNAPSHOT.jar diegocat-app.jar 
+copy target/tk-0.0.1-SNAPSHOT.jar diego-app.jar 
 
-ENTRYPOINT ["java","-jar","/diegocat-app.jar"]
+ENTRYPOINT ["java","-jar","/diego-app.jar"]
