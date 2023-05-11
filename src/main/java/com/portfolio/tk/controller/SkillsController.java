@@ -10,6 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("skills")
+@CrossOrigin(origins = "https://portfolio-tk.onrender.com")
 public class SkillsController {
     private final SkillsService skillsService;
 

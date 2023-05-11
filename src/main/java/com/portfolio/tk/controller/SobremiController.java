@@ -13,7 +13,7 @@ import java.sql.SQLException;
  */
 @RestController
 @RequestMapping("sobremi")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://portfolio-tk.onrender.com")
 public class SobremiController {
     private final SobremiService sobremiService;
 
