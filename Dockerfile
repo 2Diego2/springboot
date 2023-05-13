@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM amazoncorretto:11-alpine-jdk
 
 MAINTAINER diego
 
