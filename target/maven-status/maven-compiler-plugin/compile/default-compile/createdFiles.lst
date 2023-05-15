@@ -2,6 +2,7 @@ com\portfolio\tk\entity\Navbar.class
 com\portfolio\tk\TkApplication$1.class
 com\portfolio\tk\service\SkillsService.class
 com\portfolio\tk\entity\Educacion.class
+com\portfolio\tk\config\WebMvcConfig.class
 com\portfolio\tk\repository\EducacionRepository.class
 com\portfolio\tk\controller\EducacionController.class
 com\portfolio\tk\controller\SobremiController.class
